@@ -1,23 +1,19 @@
 import React from 'react';
+import MetaTitle from '../../ui/MetaTitle';
+import styles from './Home.module.scss';
 
-const Home = () => {
+const Home = ({ links, me }) => {
   return (
-    <div>
-      Home
-    </div>
+    <section className={styles.section}>
+      <MetaTitle title={'zimenokk CV'} />
+      <div className={styles.container}>
+        
+      </div>
+
+    </section>
   );
 };
 
 export default Home;
 
-export const getStaticProps = async () => {
 
-  const links = await axios.get()
-
-  return {
-    props: {
-      links, me
-    },
-    revalidate: 60
-  };
-};
