@@ -30,5 +30,5 @@ const links = [
 ];
 
 export default function handler(req, res) {
-  req.status(200).json(links);
+  res.status(200).json(links);
 }
