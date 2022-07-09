@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Circles = () => {
+const AboutMe = ({ me }) => {
   return (
     <div>
-      
+
     </div>
   );
 };
 
-export default Circles;
+export default AboutMe;
