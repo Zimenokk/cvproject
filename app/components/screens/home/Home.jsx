@@ -10,14 +10,4 @@ const Home = () => {
 
 export default Home;
 
-export const getStaticProps = async () => {
 
-  const links = await axios.get()
-
-  return {
-    props: {
-      links, me
-    },
-    revalidate: 60
-  };
-};
