@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RecentVideos = () => {
+const DescriptionButton = () => {
   return (
     <div>
 
@@ -8,4 +8,4 @@ const RecentVideos = () => {
   );
 };
 
-export default RecentVideos;
+export default DescriptionButton;

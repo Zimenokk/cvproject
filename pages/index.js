@@ -1,12 +1,24 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../app/assets/styles/Home.module.css'
-import Home from "../app/components/screens/home/Home";
+import Home from '../app/components/screens/home/Home';
+import axios from 'axios';
+import { API_URL } from '../app/constants';
 
-export default function HomePage() {
-    return (
-        <div>
-            <Home/>
-        </div>
-    )
+export default function HomePage(props) {
+  return (
+    <div>
+      <Home {...props} />
+    </div>
+  );
 }
+
+export const getStaticProps = async () => {
+
+  const links = await axios.get(`${API_URL}/links`).then(({ data }) => data);
+  const me = await axios.get(`${API_URL}/me`).then(({ data }) => data);
+
+  return {
+    props: {
+      links, me
+    },
+    revalidate: 60
+  };
+};
