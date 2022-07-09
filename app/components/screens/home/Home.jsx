@@ -1,10 +1,16 @@
 import React from 'react';
+import styles from './Home.module.scss';
+import MetaTitle from '../../ui/MetaTitle';
 
-const Home = () => {
+
+const Home = ({ links, me }) => {
   return (
-    <div>
+
+    <section className={styles.section}>
+      <MetaTitle title={'zimenokk cv'} />
       Home
-    </div>
+    </section>
+
   );
 };
 
