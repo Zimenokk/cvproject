@@ -25,6 +25,11 @@
 
     width: 28rem;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 20%;
+
+    > p {
+      font-size: 1rem;
+    }
 
     //@include media(tablet) {
     //  width: 26.5rem;
@@ -41,4 +46,6 @@
     //  }
     //}
   }
+
+
 }
