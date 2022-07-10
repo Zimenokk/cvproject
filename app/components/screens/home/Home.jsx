@@ -13,10 +13,11 @@ const Home = ({ links, me }) => {
     <section className={styles.section}>
       <MetaTitle title={'zimenokk cv'} />
       <div className={styles.container}>
-        
+
         <AboutMe me={me} />
         <RecentVideos />
         <Grid links={links} />
+        
       </div>
       <Circles />
     </section>

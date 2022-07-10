@@ -1,9 +1,20 @@
 import React from 'react';
+import { useOutside } from '../../../../../hooks/useOutside';
+import cn from 'classnames';
+import styles from './DescriptionButton.module.scss';
 
-const DescriptionButton = () => {
+const DescriptionButton = ({ description }) => {
+
+  const { isShow, setIsShow } = useOutside(false); //open with click on elem and close by clicking elsewhere
+
   return (
-    <div>
-
+    <div className={styles.parrent} ref={ref}>
+      <button onClick={() => setIsShow(!isShow)} className={cn({
+        [styles.active]: isShow
+      })}>
+        <span>About me</span>
+      </button>
+      {isShow && <article>{description}</article>}
     </div>
   );
 };
