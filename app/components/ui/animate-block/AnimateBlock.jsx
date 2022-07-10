@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './AnimateBlock.module.scss';
 
 const AnimateBlock = () => {
   return (
-    <div>
+    <div className={styles.animation}>
 
     </div>
   );
