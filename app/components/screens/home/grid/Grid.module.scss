@@ -36,11 +36,22 @@
     }
 
     .gradient {
-      @apply flex justify-center items-center h-32   border-primary border border-solid relative z-10;
+      @apply flex flex-col justify-center  text-white h-32   border-primary border border-solid relative z-10 pt-2 pl-2 pb-2 pr-2;
       transition: 0.5s;
       border-radius: 8px;
-
       background-size: 200% auto;
+    }
+
+    h2 {
+      font-weight: bold;
+      font-size: 1.4rem;
+      margin-bottom: 0px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 13px;
+      text-transform: lowercase;
     }
 
     &:hover {

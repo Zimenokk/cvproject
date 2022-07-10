@@ -10,7 +10,7 @@ const Home = ({ links, me, linksSocials }) => {
   return (
 
     <section className={styles.section}>
-      <MetaTitle title={'zimenokk cv'} />
+      <MetaTitle title={'zimenokk\'s cv'} />
       <div className={styles.container}>
 
         <AboutMe me={me} />

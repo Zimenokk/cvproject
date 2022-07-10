@@ -1,7 +1,7 @@
 @import '../../../../assets/styles/media';
 
 .me {
-  @apply mt-40 mb-6 text-center bg-secondBG relative;
+  @apply mt-20 mb-6 text-center bg-secondBG relative;
   border-radius: 8px;
   @include media(laptop) {
     @apply mt-28;

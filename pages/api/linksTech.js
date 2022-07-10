@@ -2,108 +2,91 @@
 const linksTech = [
   {
     _id: 'link_1',
-    icon: {
-      path: '/icons/htmllessons.svg',
-      width: 76
-    },
     gradient: {
-      from: '#13E780',
-      to: '#00bbd5'
+      from: '#BBAAFF',
+      to: '#5429FF'
     },
-    link: 'https://htmllessons.ru/?utm_source=youtube&utm_medium=red-group&utm_campaign=red-links&utm_content=link',
-    title: 'Моя гордость'
+    upTitle: 'JS',
+    downTitle: 'ES6',
+    subTitle: 'DOM, Context, events, promises, OOP, axios, async, callbacks',
+    link: 'https://www.w3schools.com/js/js_es6.asp'
   },
   {
     _id: 'link_2',
-    icon: {
-      path: '/icons/vip.svg',
-      width: 115
-    },
     gradient: {
       from: '#fc5dff',
       to: '#5dfdff'
     },
-    link: 'https://htmllessons.ru/premium',
-    title: 'Та самая премиум подписка',
-    isImportant: true
+    upTitle: 'HTML',
+    downTitle: '5',
+    subTitle: 'Semantics, responsive, emmet, attributes, favicon, layout',
+    link: 'https://www.w3schools.com/html/default.asp'
   },
   {
     _id: 'link_3',
-    icon: {
-      path: '/icons/global.svg',
-      width: 80
-    },
     gradient: {
       from: '#FEAC5E',
       to: '#4BC0C8'
     },
-    link: 'https://t.me/redgroupchannel/37',
-    title: 'Как купить из других стран'
+    upTitle: 'CSS',
+    downTitle: '3',
+    subTitle: 'Box Model, tailwind, bem, Animations, Flexbox, SASS',
+    link: 'https://www.w3schools.com/css/default.asp'
   },
   {
     _id: 'link_4',
-    icon: {
-      path: '/icons/telegram.svg',
-      width: 80
-    },
     gradient: {
       from: '#76acfd',
       to: '#6ed0ff'
     },
-    link: 'https://t.me/redgroupchannel',
-    title: 'Розыгрыши и стримы тут'
+    upTitle: 'GIT',
+    downTitle: 'hub || lab',
+    subTitle: 'init, commit, push, revert, stash, remote, branch, checkout',
+    link: 'https://github.com/Zimenokk'
   },
   {
     _id: 'link_5',
-    icon: {
-      path: '/icons/intensives.svg',
-      width: 150
-    },
     gradient: {
       from: '#c659ff',
       to: '#ff3f4d'
     },
-    link: 'https://htmllessons.ru/list-intensives',
-    title: 'Список интенсивов по подписке'
+    upTitle: 'React',
+    downTitle: '16',
+    subTitle: 'hooks, routing, events, promises, OOP, axios, async, callbacks',
+    link: 'https://www.w3schools.com/js/js_es6.asp'
   },
   {
     _id: 'link_6',
-    icon: {
-      path: '/icons/vs-code.svg',
-      width: 80
-    },
     gradient: {
       from: '#3EA6EA',
       to: '#2179c1'
     },
-    link: 'https://www.youtube.com/watch?v=_jquc4KJ4IU',
-    title: 'Мой сетап VS Code'
+    upTitle: 'JS',
+    downTitle: 'ES6',
+    subTitle: 'DOM, fetch API, events, promises, OOP, axios, async, callbacks',
+    link: 'https://www.w3schools.com/js/js_es6.asp'
   },
   {
     _id: 'link_7',
-    icon: {
-      path: '/icons/youtube.svg',
-      width: 84
-    },
     gradient: {
       from: '#e53935',
       to: '#e35d5b'
     },
-    link: 'https://www.youtube.com/c/MaxShushval?sub_confirmation=1',
-    title: 'Личный Youtube'
+    upTitle: 'JS',
+    downTitle: 'ES6',
+    subTitle: 'DOM, fetch API, events, promises, OOP, axios, async, callbacks',
+    link: 'https://www.w3schools.com/js/js_es6.asp'
   },
   {
     _id: 'link_8',
-    icon: {
-      path: '/icons/airbnb.svg',
-      width: 75
-    },
     gradient: {
       from: '#FF385C',
       to: '#dd2e63'
     },
-    link: 'https://abnb.me/e/Mgl6khUuN3',
-    title: 'Получи 4000 руб. на бронирование'
+    upTitle: 'JS',
+    downTitle: 'ES6',
+    subTitle: 'DOM, fetch API, events, promises, OOP, axios, async, callbacks',
+    link: 'https://www.w3schools.com/js/js_es6.asp'
   }
   // {
   //   _id: 'link_9',
