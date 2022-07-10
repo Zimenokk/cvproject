@@ -3,10 +3,8 @@ import styles from './AboutMe.module.scss';
 import Image from 'next/image';
 import EmailButton from './email-button/EmailButton';
 import DescriptionButton from './description-button/DescriptionButton';
-import { APP_URL } from '../../../../constants';
 
 const AboutMe = ({ me }) => {
-  console.log(APP_URL);
   return (
     <div className={styles.me}>
       <div className={styles['image-wrapper']}>
