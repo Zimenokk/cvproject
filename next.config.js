@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  images: { domains: ['localhost'] },//TODO:ТУТ ДОМЕН З ПРОДАКШЕНУ
+  images: { domains: ['localhost', 'upload.wikimedia.org'] },//TODO:ТУТ ДОМЕН З ПРОДАКШЕНУ
   env: {
     APP_URL: process.env.REACT_APP_UURL,
     APP_ENV: process.env.REACT_APP_ENV

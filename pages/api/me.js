@@ -1,6 +1,6 @@
 const me = {
   siteName: 'Zimenokk CV',
-  avatar: '/avatar.jpeg',
+  avatar: '/avatar.jpg',
   description:
     `<p>Hello, I'm Daniel, 20 years old.</p>` +
     `<p>Worked as a web designer, now I do web development in JS, TS, React. </p>` +

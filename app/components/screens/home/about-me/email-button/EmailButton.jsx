@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './EmailButton.module.scss';
-import { APP_URL } from '../../../../../constants';
 import Image from 'next/image';
 
 const EmailButton = () => {
@@ -14,7 +13,7 @@ const EmailButton = () => {
       >
 				<span>
 					<Image
-            src={`${APP_URL}/icons/email.svg`}
+            src={`http://localhost:3000/icons/email.svg`}
             alt=''
             height={18}
             width={18}
