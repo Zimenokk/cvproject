@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Grid.module.scss';
-import AnimateBlock from '../../../ui/animate-block/AnimateBlock';
 
 const GridItem = ({ item }) => {
 
@@ -17,7 +16,7 @@ const GridItem = ({ item }) => {
         <img src={item.icon.path} alt='' width={item.icon.width} />
       </div>
       <div className={styles.title}>{item.title}</div>
-      {item.isImportant && <AnimateBlock />}
+      {/*{item.isImportant && <AnimateBlock />}*/}
     </a>
 
   );

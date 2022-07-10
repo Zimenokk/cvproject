@@ -15,7 +15,7 @@ const DescriptionButton = ({ description }) => {
       })}>
         <span>About me</span>
       </button>
-      {isShow && <article className={styles.personArticle}>{parse(description)}</article>}
+      {isShow && <article>{parse(description)}</article>}
     </div>
   );
 };

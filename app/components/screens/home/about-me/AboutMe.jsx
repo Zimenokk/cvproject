@@ -23,8 +23,8 @@ const AboutMe = ({ me }) => {
         <Image
           src={`http://localhost:3000/icons/verified.svg`}
           alt=''
-          height={16}
-          width={16}
+          height={24}
+          width={24}
         />
       </div>
       <EmailButton />

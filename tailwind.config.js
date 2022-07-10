@@ -1,7 +1,10 @@
 /** @type {string} */
 
-const primaryColor = '#FF3850';
-const bgColor = '#111012';
+const primaryColor = '#5429FF';
+const bgColor = '#FFFFFF';
+const secondBG = '#F7F7F7';
+const fontColor = '#343434';
+
 
 module.exports = {
   content: [
@@ -12,7 +15,9 @@ module.exports = {
     extend: {
       colors: {
         primary: primaryColor,
-        bgColor: bgColor
+        bgColor: bgColor,
+        secondBG: secondBG,
+        fontColor: fontColor
       },
       borderRadius: {
         layout: '1rem'

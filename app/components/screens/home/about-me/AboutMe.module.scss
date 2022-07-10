@@ -1,7 +1,8 @@
 @import '../../../../assets/styles/media';
 
 .me {
-  @apply mt-40 mb-6 text-center bg-zinc-900 relative;
+  @apply mt-40 mb-6 text-center bg-secondBG relative;
+  border-radius: 8px;
   @include media(laptop) {
     @apply mt-28;
   }
@@ -40,7 +41,7 @@
   }
 
   .heading {
-    @apply mb-5 text-3xl font-semibold text-white;
+    @apply mb-5 text-3xl font-bold text-fontColor;
     @include media(tablet) {
       @apply text-2xl mb-4;
     }

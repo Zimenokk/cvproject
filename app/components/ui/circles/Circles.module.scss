@@ -8,13 +8,13 @@
     &:first-child {
       left: -400px;
       top: -250px;
-      box-shadow: 160px 100px 400px rgba(255, 56, 80, 0.8);
+      box-shadow: 160px 100px 1000px rgba(129, 138, 228, 1);
     }
 
     &:last-child {
       right: -400px;
       bottom: -250px;
-      box-shadow: -160px -100px 400px rgba(255, 56, 80, 0.8);
+      box-shadow: -160px -100px 400px rgba(197, 37, 221, 1);
     }
   }
 }
