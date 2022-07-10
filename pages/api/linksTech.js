@@ -52,8 +52,8 @@ const linksTech = [
     },
     upTitle: 'React',
     downTitle: '16',
-    subTitle: 'hooks, routing, events, promises, OOP, axios, async, callbacks',
-    link: 'https://www.w3schools.com/js/js_es6.asp'
+    subTitle: 'hooks, routing, Forms, Rendering, Lifecycle, Testing, ReactDOM',
+    link: 'https://reactjs.org'
   },
   {
     _id: 'link_6',
@@ -61,10 +61,10 @@ const linksTech = [
       from: '#3EA6EA',
       to: '#2179c1'
     },
-    upTitle: 'JS',
-    downTitle: 'ES6',
-    subTitle: 'DOM, fetch API, events, promises, OOP, axios, async, callbacks',
-    link: 'https://www.w3schools.com/js/js_es6.asp'
+    upTitle: 'TS',
+    downTitle: '4.7.4',
+    subTitle: 'Generics, Classes, Decorators, Enums, tsx, interfaces, Symbols, callbacks',
+    link: 'https://www.typescriptlang.org'
   },
   {
     _id: 'link_7',
@@ -72,10 +72,10 @@ const linksTech = [
       from: '#e53935',
       to: '#e35d5b'
     },
-    upTitle: 'JS',
-    downTitle: 'ES6',
-    subTitle: 'DOM, fetch API, events, promises, OOP, axios, async, callbacks',
-    link: 'https://www.w3schools.com/js/js_es6.asp'
+    upTitle: 'NEXT',
+    downTitle: 'js',
+    subTitle: 'routing, api, ssg, config, deployment, auth',
+    link: 'https://nextjs.org'
   },
   {
     _id: 'link_8',
@@ -83,37 +83,12 @@ const linksTech = [
       from: '#FF385C',
       to: '#dd2e63'
     },
-    upTitle: 'JS',
-    downTitle: 'ES6',
-    subTitle: 'DOM, fetch API, events, promises, OOP, axios, async, callbacks',
-    link: 'https://www.w3schools.com/js/js_es6.asp'
+    upTitle: 'basic',
+    downTitle: 'knowledge',
+    subTitle: 'p-management, jira, scrum/agile, figma, algorithms, cli, docker',
+    link: 'https://github.com/Zimenokk/Zimenokk'
   }
-  // {
-  //   _id: 'link_9',
-  //   icon: {
-  //     path: '/icons/emoji.svg',
-  //     width: 90
-  //   },
-  //   gradient: {
-  //     from: '#f6d365',
-  //     to: '#fda085'
-  //   },
-  //   link: 'https://www.youtube.com/channel/UCdpPBwKPriPIP2eyP9a1C6g/join',
-  //   title: 'Уникальный значок и эмоджи'
-  // }
-  // {
-  //   _id: 'link_10',
-  //   icon: {
-  //     path: '/icons/boosty.svg',
-  //     width: 160
-  //   },
-  //   gradient: {
-  //     from: '#ff8d42',
-  //     to: '#ff8257'
-  //   },
-  //   link: 'https://boosty.to/redgroup',
-  //   title: 'Эксклюзивный контент'
-  // }
+
 ];
 
 export default function handler(req, res) {

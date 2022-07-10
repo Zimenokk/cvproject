@@ -6,10 +6,10 @@ const EmailButton = () => {
   return (
     <div className={styles.button}>
       <a
-        href='mailto:dzimenokk@gmail.com'
+        href='mailto:dzimenok01@gmail.com'
         target='_blank'
         rel='noreferrer'
-        title='dzimenokk@gmail.com'
+        title='dzimenok01@gmail.com'
       >
 				<span>
 					<Image
@@ -19,7 +19,7 @@ const EmailButton = () => {
             width={18}
           />
 				</span>
-        <span>Email</span>
+        <span>dzimenok01@gmail.com</span>
       </a>
     </div>
   );
