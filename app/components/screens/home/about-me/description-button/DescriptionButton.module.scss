@@ -11,14 +11,14 @@
 
   > button {
     @apply cursor-pointer border-none bg-white text-fontColor outline-none bg-white hover:bg-secondBG text-fontColor transition-colors py-1.5 px-4 text-white;
-    @apply flex items-center bg-white text-fontColor hover:bg-secondBG text-fontColor transition-colors py-1.5 px-4  text-lg;
+    @apply flex items-center bg-white text-fontColor hover:bg-secondBG text-fontColor transition-colors py-1.5 px-4  text-lg ;
     font-weight: 600;
     @include media(mobile) {
       @apply px-3 py-1.5;
     }
 
     &.active {
-      @apply bg-black;
+      @apply bg-secondBG;
     }
   }
 

@@ -2,12 +2,11 @@ import React from 'react';
 import styles from './Home.module.scss';
 import MetaTitle from '../../ui/MetaTitle';
 import AboutMe from './about-me/AboutMe';
-import RecentVideos from './recent-videos/RecentVideos';
 import Grid from './grid/Grid';
 import Circles from '../../ui/circles/Circles';
 
 
-const Home = ({ links, me }) => {
+const Home = ({ links, me, linksSocials }) => {
   return (
 
     <section className={styles.section}>
@@ -15,9 +14,9 @@ const Home = ({ links, me }) => {
       <div className={styles.container}>
 
         <AboutMe me={me} />
-        <RecentVideos />
-        <Grid links={links} />
-        
+        <Grid links={links} gridTitle={'My tech stack'} />
+        <Grid links={linksSocials} gridTitle={'Socials'} />
+
       </div>
       <Circles />
     </section>

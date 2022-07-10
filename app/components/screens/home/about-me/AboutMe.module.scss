@@ -51,6 +51,12 @@
 
     > span {
       @apply mr-2;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
       @include media(mobile) {
         @apply mr-1;
       }

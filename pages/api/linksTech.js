@@ -1,5 +1,5 @@
-//TODO: винести links в окреме місце
-const links = [
+//TODO: винести linksTech в окреме місце
+const linksTech = [
   {
     _id: 'link_1',
     icon: {
@@ -104,35 +104,35 @@ const links = [
     },
     link: 'https://abnb.me/e/Mgl6khUuN3',
     title: 'Получи 4000 руб. на бронирование'
-  },
-  {
-    _id: 'link_9',
-    icon: {
-      path: '/icons/emoji.svg',
-      width: 90
-    },
-    gradient: {
-      from: '#f6d365',
-      to: '#fda085'
-    },
-    link: 'https://www.youtube.com/channel/UCdpPBwKPriPIP2eyP9a1C6g/join',
-    title: 'Уникальный значок и эмоджи'
-  },
-  {
-    _id: 'link_10',
-    icon: {
-      path: '/icons/boosty.svg',
-      width: 160
-    },
-    gradient: {
-      from: '#ff8d42',
-      to: '#ff8257'
-    },
-    link: 'https://boosty.to/redgroup',
-    title: 'Эксклюзивный контент'
   }
+  // {
+  //   _id: 'link_9',
+  //   icon: {
+  //     path: '/icons/emoji.svg',
+  //     width: 90
+  //   },
+  //   gradient: {
+  //     from: '#f6d365',
+  //     to: '#fda085'
+  //   },
+  //   link: 'https://www.youtube.com/channel/UCdpPBwKPriPIP2eyP9a1C6g/join',
+  //   title: 'Уникальный значок и эмоджи'
+  // }
+  // {
+  //   _id: 'link_10',
+  //   icon: {
+  //     path: '/icons/boosty.svg',
+  //     width: 160
+  //   },
+  //   gradient: {
+  //     from: '#ff8d42',
+  //     to: '#ff8257'
+  //   },
+  //   link: 'https://boosty.to/redgroup',
+  //   title: 'Эксклюзивный контент'
+  // }
 ];
 
 export default function handler(req, res) {
-  res.status(200).json(links);
+  res.status(200).json(linksTech);
 }
