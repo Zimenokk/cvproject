@@ -1,12 +1,14 @@
 import React from 'react';
 import { Head } from 'next/head';
 
-
 const MetaTitle = ({ title }) => {
+  //TODO:замість div в оригіналі елемент <Head>
   return (
-    <Head>
+    <div>
       <title>{title}</title>
-    </Head>
+    </div>
+
+
   );
 };
 

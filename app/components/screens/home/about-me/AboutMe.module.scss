@@ -1,0 +1,65 @@
+@import '../../../../assets/styles/media';
+
+.me {
+  @apply mt-20 mb-6 text-center bg-secondBG relative;
+  border-radius: 8px;
+  @include media(laptop) {
+    @apply mt-28;
+  }
+  @include media(tablet) {
+    @apply mt-20 mb-4;
+  }
+  @include media(mobile) {
+    @apply mt-16 mb-3;
+  }
+
+  .image-wrapper {
+    @apply mb-6;
+    @include media(tablet) {
+      @apply mb-4;
+    }
+    @include media(mobile) {
+      @apply mb-2;
+    }
+
+    > span {
+      margin-top: -3rem !important;
+      @include media(tablet) {
+        width: 150px !important;
+        height: 150px !important;
+      }
+      @include media(mobile) {
+        width: 120px !important;
+        height: 120px !important;
+        margin-top: -2.5rem !important;
+      }
+    }
+
+    .image {
+      @apply rounded-full;
+    }
+  }
+
+  .heading {
+    @apply mb-5 text-3xl font-bold text-fontColor;
+    @include media(tablet) {
+      @apply text-2xl mb-4;
+    }
+    @include media(mobile) {
+      @apply mb-2 text-2xl;
+    }
+
+    > span {
+      @apply mr-2;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+      @include media(mobile) {
+        @apply mr-1;
+      }
+    }
+  }
+}

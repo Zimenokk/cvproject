@@ -1,0 +1,49 @@
+@import '../../../../../assets/styles/media';
+
+.parent {
+  @apply absolute top-5 right-5;
+  @include media(tablet) {
+    @apply top-2 right-2;
+  }
+  @include media(mobile) {
+    @apply top-1 right-1;
+  }
+
+  > button {
+    @apply cursor-pointer border-none bg-white text-fontColor outline-none bg-white hover:bg-secondBG text-fontColor transition-colors py-1.5 px-4 text-white;
+    @apply flex items-center bg-white text-fontColor hover:bg-secondBG text-fontColor transition-colors py-1.5 px-4  text-lg ;
+    font-weight: 600;
+    @include media(mobile) {
+      @apply px-3 py-1.5;
+    }
+
+    &.active {
+      @apply bg-secondBG;
+    }
+  }
+
+  > article {
+    @apply animate-scaleIn absolute right-0 top-10 bg-black text-white text-sm px-4 text-left;
+
+    width: 28rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    padding: 10%;
+    opacity: 75%;
+
+    @include media(tablet) {
+      width: 26.5rem;
+    }
+
+    @include media(mobile) {
+      @apply top-8 px-2 z-20;
+      font-size: 0.8rem;
+
+      width: 19.5rem;
+
+      > p {
+        @apply my-2;
+      }
+    }
+  }
+}
