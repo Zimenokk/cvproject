@@ -8,6 +8,7 @@ const MetaTitle = ({ title }) => {
       <title>{title}</title>
     </div>
 
+
   );
 };
 
