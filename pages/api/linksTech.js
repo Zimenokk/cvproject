@@ -8,7 +8,7 @@ const linksTech = [
     },
     upTitle: 'JS',
     downTitle: 'ES6',
-    subTitle: 'DOM, Context, events, promises, OOP, axios, async, callbacks',
+    subTitle: 'DOM, Context, events, promises, OOP, npm, axios, async, callbacks',
     link: 'https://www.w3schools.com/js/js_es6.asp'
   },
   {

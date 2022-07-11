@@ -28,7 +28,6 @@ const AboutMe = ({ me }) => {
         />
       </div>
       <EmailButton />
-      <EmailButton />
       <DescriptionButton description={me.description} />
     </div>
   );
