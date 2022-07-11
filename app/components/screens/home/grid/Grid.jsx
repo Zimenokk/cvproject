@@ -8,7 +8,7 @@ const Grid = ({ links, gridTitle }) => {
     <div className={styles.gridContainer}>
       <div className={styles.gridTitle}><h2>{gridTitle} </h2></div>
       <div className={styles.grid}>
-        {links.map(link => <GridItem key={link._id} item={link} />)}
+        {links && links.map(link => <GridItem key={link._id} item={link} />)}
       </div>
     </div>
 

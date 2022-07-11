@@ -6,20 +6,20 @@ const EmailButton = () => {
   return (
     <div className={styles.button}>
       <a
-        href='mailto:dzimenok01@gmail.com'
+        href='mailto:dzimenokk@gmail.com'
         target='_blank'
         rel='noreferrer'
-        title='dzimenok01@gmail.com'
+        title='dzimenokk@gmail.com'
       >
 				<span>
 					<Image
-            src={`http://localhost:3000/icons/email.svg`}
+            src={`/icons/email.svg`}
             alt=''
             height={18}
             width={18}
           />
 				</span>
-        <span>dzimenok01@gmail.com</span>
+        <span>dzimenokk@gmail.com</span>
       </a>
     </div>
   );

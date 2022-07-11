@@ -8,27 +8,27 @@ const AboutMe = ({ me }) => {
   return (
     <div className={styles.me}>
       <div className={styles['image-wrapper']}>
-        <Image
+        {me?.avatar && <Image
           // src={`${APP_URL}${me.avatar}`}
           src={`${me?.avatar}`}
           width={190}
           height={190}
           className={styles.image}
-          alt={me.siteName}
+          alt={me?.siteName}
           quality={100}
-        />
+        />}
       </div>
       <div className={styles.heading}>
         <span>zimenokk</span>
         <Image
-          src={`http://localhost:3000/icons/verified.svg`}
+          src={`/icons/verified.svg`}
           alt=''
           height={24}
           width={24}
         />
       </div>
       <EmailButton />
-      <DescriptionButton description={me.description} />
+      <DescriptionButton description={me?.description} />
     </div>
   );
 };
